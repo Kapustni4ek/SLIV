@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> ГДЗ Бесконечности </title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="plagins/animate.css">
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="перчатка.png" type="image/x-icon">
+
+         <!-- Latest compiled and minified CSS -->
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+         <!-- jQuery library -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+         <!-- Popper JS -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+         <!-- Latest compiled JavaScript -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+         <script src="plagins/wow.min.js"></script>
+         <script src="plagins/fm.revealator.jquery.min.js"></script>
+         <script src="plagins/jquery-1.11.3.min.js"></script>
+         <link rel="stylesheet" href="plagins/fm.revealator.jquery.min.css">
+
+        <script>
+            new WOW().init();
+        </script>
+
+
+    <script>
+
+        $(document).ready(function(){
+        
+        $(".lupa").click(function(){
+            $(".wrap, .input").toggleClass("active");
+            $("input[type='text']").focus();
+        });
+        
+        });
+
+        $(document).ready(function(){
+        $(".menu_button").click(function(){
+            $(".drop_menu").slideToggle("slow");
+        });
+        });
+        
+
+
+
+        $(document).ready(function(){
+        $("#flip").click(function(){
+            $("#panel").slideToggle("slow");
+            
+            if (!$(this).data('status')) {
+                $(".flip_text").replaceWith('<p class="flip_text">Ещё</p>');
+                $(".plus").removeClass('fa fa-angle-double-down').addClass('fa fa-angle-double-up');
+;
+                $(this).data('status', true);
+            }
+            else {
+                $(".flip_text").html('<p class="flip_text">Ещё</p>');
+                $(".plus").removeClass('fa fa-angle-double-up').addClass('fa fa-angle-double-down');
+                $(this).data('status', false);
+            }
+        });
+        });
+
+        $(document).ready(function() { 
+        var button = $('#button-up');	
+        $(window).scroll (function () {
+            if ($(this).scrollTop () > 300) {
+            button.fadeIn();
+            } else {
+            button.fadeOut();
+            }
+        });	 
+        button.on('click', function(){
+        $('body, html').animate({
+        scrollTop: 0
+        }, 800);
+        return false;
+        });		 
+        });
+
+
+    </script>
+
+    <script src ="jquery.scrollme.js"> </script> 
+    <script src ="jquery.scrollme.min.js"> </script>
+    </head>
+
+
+<center>
+    <header>
+        <div class="navbar_top">
+            <div class="menu">
+                <div class="full_logo">
+                    <div class="logo">
+                        <a href="index.html">
+                            <div class="cyrcle">
+                                <img src="stones/obich.png" alt="" class="icon_logo">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="paragraph">
+                        <div class="gdz">
+                            <p>GDZ</p>
+                        </div>
+                        <div class="universe">
+                            <p class="margin-top">БЕСКОНЕЧНОСТИ</p>
+                        </div>
+                    </div>
+
+                    <div class="togeser">
+                        
+                        
+
+                        <div class="wrap">
+                            <form>
+                            <input type="text" class="input" placeholder="Галактический поиск">
+                            </form>
+                            <i class="fa fa-search lupa" aria-hidden="true"></i>
+                        </div>
+   
+                    </div>    
+                </div>
+
+
+            </div>
+        </div>
+    
+  
+    </header>
+
+    <body>
+        <div class="home_page">
+            <div class="conteinera">
+                <div class="fotki">
+                    <div class="oni">
+                        <p>Они украли твой аккаунт</p>
+                    </div>
+                    <div class="foto">
+                        <div class="row justify-content-center">
+                            <div class="in_foto">
+                                <img src="danil.jpg" alt="" class="danil">
+                            </div>
+                            <div class="in_foto">
+                                <img src="denis.jpg" alt="" class="danil">
+                            </div>
+                            <div class="in_foto">
+                                <img src="dima.jpg" alt="" class="danil">
+                            </div>
+                            <div class="in_foto">
+                                <img src="vald.jpg" alt="" class="danil">
+                            </div>
+                        </div>
+
+                        <p class="blu">Твои действия?</p>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+
+
+
+    </body>
+
+
+    <footer>
+        <div class="footer">
+        
+            <div class="conteinr">
+                <div class="the_end">
+                    <div class="footer_txt">
+                        <p>Готовые домашние задания для облегчения жизни ребятам</p>
+                    </div>
+
+                    <div id="button-up" class="wow fadeInUp">
+                        <i class="fa fa-chevron-up suka"></i>	
+                    </div>
+                    
+                    <div class="avtor">
+                        <p>@Kapustni4ek</p>
+                    </div>
+
+
+                    <div class="contact">
+                        <div class="vk">
+                            <a>  
+                                <div class="row justify-content-center">
+                                    
+                                    <div class="letter_box">
+                                        <a href="https://vk.com/kapustni4ek" class="pointer">
+                                            <small class="up">С</small><small class="up">в</small><small class="up">я</small><small class="up">з</small><small class="up">ь </small><small class="up">с </small><small class="up">а</small><small class="up">д</small><small class="up">м</small><small class="up">и</small><small class="up">н</small><small class="up">и</small><small class="up">с</small><small class="up">т</small><small class="up">р</small><small class="up">а</small><small class="up">ц</small><small class="up">и</small><small class="up">е</small><small class="up">й</small>
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    
+</center>
+
+</html>
